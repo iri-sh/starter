@@ -1,0 +1,17 @@
+[user]
+    name = iri
+    email = iri@yudo.jp
+[color]
+    ui = auto
+[alias]
+    co = checkout
+    cm = commit
+    b = branch
+    s = status
+    r = rebase
+    a = add
+    p = pull
+    n = now --all --stat
+
+[core]
+    editor = /usr/local/bin/vim
