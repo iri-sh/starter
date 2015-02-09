@@ -4,16 +4,81 @@
   roles:
   - role: osxc.packages
     brew_taps:
-    - caskroom/fonts
+    - homebrew/versions
+    - homebrew/binary
+    - sanemat/font
     brew_packages:
+    # Git
     - git
-    - zsh
+    - git-now
+    - tig
+    - gibo
+    # Editor
     - vim
-    - the_silver_searcher
-    - ctags
-    - reattach-to-user-namespace
-    - tmux
+    # Shell
+    - zsh
+    - zsh-completions
+    # Storage
+    - mariadb
+    - redis
+    # GNU commands
+    - coreutils
+    - gnu-sed
+    # Tool
+    - ansible
+    - pandoc
+    - curl
+    - wget
+    - tree
+    - jq
+    - nkf
+    - w3m
     cask_packages:
-    - font-inconsolata-for-powerline
+    # Uninstaller
+    - appcleaner
+    # Terminal
     - iterm2
-    - macvim
+    # Keyboard Remapper
+    - karabiner
+    - seil
+    # Web Browser
+    - google-chrome
+    - firefox
+    - torbrowser
+    # Mailer
+    - thunderbird
+    # Cloud Storage
+    - dropbox
+    # Communication
+    - slack
+    - skype
+    - limechat
+    # Remote Control
+    - teamviewer
+    # Virtual Machine
+    - virtualbox
+    - vagrant
+    - boot2docker
+    # Image Manipulation
+    - gimp
+    # Unpacker
+    - the-unarchiver
+    # Office
+    - libreoffice
+    # Editor
+    - atom
+    - kobito
+    # IDE
+    - android-studio
+    # Lang
+    - java
+    # Launcher
+    - alfred
+    # Screen Dimmer
+    - flux
+    # X11
+    - xquartz
+    brew_pkg_with_opts:
+    # Font
+    - {pkg: "ricty", opts: "powerline,vim-powerline"}
+
