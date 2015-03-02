@@ -78,6 +78,8 @@
     - flux
     # X11
     - xquartz
+    # Password Manager
+    - keepassx
     brew_pkg_with_opts:
     # Font
     - {pkg: "ricty", opts: "powerline,vim-powerline"}
